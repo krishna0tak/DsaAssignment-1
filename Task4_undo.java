@@ -29,7 +29,7 @@ public class Undo {
 
                     currentText += typeText;
 
-                    System.out.println("✅ Text added.");
+                    System.out.println(" Text added.");
                     break;
 
                 case 2:
@@ -41,7 +41,7 @@ public class Undo {
                         }
                         System.out.println("Undo performed. Removed: " + lastAction);
                     } else {
-                        System.out.println("⚠️ Nothing to undo.");
+                        System.out.println(" Nothing to undo.");
                     }
                     break;
 
